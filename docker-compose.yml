@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  matthewbub:
+    container_name: matthewbub
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - net
+networks:
+  net:
