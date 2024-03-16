@@ -1,0 +1,11 @@
+{
+  "name": "matthewbub",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "prisma": "^5.11.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0"
+  }
+}
