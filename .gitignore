@@ -1,7 +1,9 @@
 # mac os
-.D_Store
+.DS_Store
 
 # env
 .env
 
+# node.js
+node_modules
 
